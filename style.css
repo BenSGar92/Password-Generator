@@ -13,7 +13,7 @@ body,
 }
 
 body {
-  font-family:  'Share Tech Mono', monospace; sans-serif;
+  font-family:  'Share Tech Mono', monospace, sans-serif;
   background-image: url(https://cdn.pixabay.com/photo/2017/05/29/18/22/matrix-2354492_960_720.jpg);
   background-color: black;
 }
@@ -88,7 +88,7 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
-  font-family:  'Share Tech Mono', monospace; sans-serif;
+  font-family:  'Share Tech Mono', monospace, sans-serif;
 }
 
 .btn:hover{
@@ -130,7 +130,7 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
-  font-family:  'Share Tech Mono', monospace; sans-serif;
+  font-family:'Share Tech Mono', monospace, sans-serif;
 }
 
 @media (max-width: 690px) {

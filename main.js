@@ -1,4 +1,3 @@
-// Using this is my main javascript file
 // DOM elements - These store the users input from the index.html document
 const passwordEl = document.getElementById('password');
 const lengthEl = document.getElementById('length');
@@ -48,7 +47,7 @@ function generatePassword(upper, lower, number, symbol, length) {
     // console.log(typesArr)
 
     // If none of the boxes are checked there needs to be a failsafe to not generate a password
-    // using 'typesCount' to check and see if at least 1 of the boxes are checked
+    // using 'typesCount' to check and see if 0 boxes have been checked to return an empty string
     if(typesCount === 0) {
         return '';
     }

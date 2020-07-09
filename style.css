@@ -13,7 +13,8 @@ body,
 }
 
 body {
-  font-family: sans-serif;
+  font-family:  'Share Tech Mono', monospace; sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2017/05/29/18/22/matrix-2354492_960_720.jpg);
   background-color: black;
 }
 
@@ -25,17 +26,18 @@ body {
 
 header {
   text-align: center;
+  font-size: 50px;
   padding: 20px;
   padding-top: 0px;
-  color: #05D5D7;
+  color: #149414;
 }
 
 .card {
-  background-color:#240090;
+  background-color:black;
   border-radius: 5px;
-  border-width: 1px;
+  border-width: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: #E43A19;
+  color: #0e6b0e;
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -62,7 +64,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #149414;
   height: 2px;
 }
 
@@ -74,11 +76,11 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: #2b5329;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
-  color: hsl(0, 0%, 100%);
+  color: black;
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
@@ -86,6 +88,11 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  font-family:  'Share Tech Mono', monospace; sans-serif;
+}
+
+.btn:hover{
+  background-color: #149414;
 }
 
 .setting {
@@ -123,6 +130,7 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  font-family:  'Share Tech Mono', monospace; sans-serif;
 }
 
 @media (max-width: 690px) {

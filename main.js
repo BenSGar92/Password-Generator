@@ -47,9 +47,10 @@ function generatePassword(upper, lower, number, symbol, length) {
     // console.log(typesArr)
 
     // If none of the boxes are checked there needs to be a failsafe to not generate a password
-    // using 'typesCount' to check and see if 0 boxes have been checked to return an empty string
-    if(typesCount === 0) {
+    // using 'typesCount' to check and see if 0 boxes have been checked to return an empty string as well as paramters to limit the length selected
+    if(typesCount === 0 || lengthEl.value < 8 || lengthEl.value > 128) {
         return '';
+    
     }
 
     // Loop over the length selected and generate the password

@@ -111,6 +111,10 @@ button[disabled] {
   float: right;
 }
 
+span {
+  opacity: .5;
+}
+
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;

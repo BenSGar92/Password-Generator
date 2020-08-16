@@ -1,5 +1,5 @@
-# Week-3-HW
-Week 3 HW - Password Generator
+# Password Generator
+Password Generator
 
 -Began with the default layout provided and decided to have checkboxes and number inputs rather than prompts and alerts
 
